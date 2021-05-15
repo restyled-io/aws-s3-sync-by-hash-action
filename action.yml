@@ -1,0 +1,24 @@
+name: AWS S3 Sync by Hash
+author: pbrisbin
+description: S3 Sync Action that uses aws-s3-sync-by-hash
+runs:
+  using: "node12"
+  main: "index.js"
+inputs:
+  bucket:
+    required: true
+  root:
+    required: true
+  force:
+    required: false
+    default: "false"
+  delete:
+    required: false
+    default: "false"
+  maxAge:
+    required: false
+    default: "86400" # one day
+  acl:
+    required: false
+    default: "private"
+outputs: {}

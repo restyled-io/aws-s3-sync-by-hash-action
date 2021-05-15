@@ -1,0 +1,11 @@
+{
+  "name": "aws-s3-sync-by-hash-action",
+  "version": "0.0.0",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@akud/aws-s3-sync-by-hash": "^1.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
