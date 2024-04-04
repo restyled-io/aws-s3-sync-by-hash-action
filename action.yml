@@ -2,7 +2,7 @@ name: AWS S3 Sync by Hash
 author: pbrisbin
 description: S3 Sync Action that uses aws-s3-sync-by-hash
 runs:
-  using: "node12"
+  using: "node20"
   main: "index.js"
 inputs:
   bucket:
